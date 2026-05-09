@@ -1,4 +1,3 @@
-هذا ملف **README.md** احترافي وجاهز لمشروعك على GitHub. الملف مصمم ليعكس قوة المشروع تقنياً (Microservices, Security, ML) ويوضح الـ 7 متطلبات التي قمت بتنفيذها
 # 🐾 Pet Clinic Management System
 
 A robust, enterprise-grade **Microservices-based** application for managing pet clinic operations. This project implements advanced software engineering principles, including distributed systems architecture, predictive analytics, and secure authentication.
