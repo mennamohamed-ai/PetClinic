@@ -17,6 +17,20 @@ services:
       retries: 20
     networks:
       - app-network
+  
+  frontend:
+    build:
+      context: ./Frontend
+      dockerfile: Dockerfile
+    container_name: petclinic-frontend
+    restart: unless-stopped
+    depends_on:
+      api-gateway:
+        condition: service_started
+    ports:
+      - "5173:80"
+    networks:
+      - app-network
 
   mysql-init:
     image: mysql:8.4
