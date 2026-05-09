@@ -51,10 +51,10 @@ export default function Footer () {
 
           {/* social icons */}
           <div className='flex flex-row gap-1 socialIcons'>
-            <i class='p-1 rounded-full text-2xl fa-brands fa-facebook-f facebook'></i>
-            <i class='p-1 rounded-full text-2xl fa-brands fa-instagram insta'></i>
-            <i class='p-1 rounded-full text-2xl fa-brands fa-tiktok tiktok'></i>
-            <i class='p-1 rounded-full text-2xl fa-brands fa-linkedin linked'></i>
+            <i className='p-1 rounded-full text-2xl fa-brands fa-facebook-f facebook'></i>
+            <i className='p-1 rounded-full text-2xl fa-brands fa-instagram insta'></i>
+            <i className='p-1 rounded-full text-2xl fa-brands fa-tiktok tiktok'></i>
+            <i className='p-1 rounded-full text-2xl fa-brands fa-linkedin linked'></i>
           </div>
         </div>
       </footer>
